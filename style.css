@@ -1,0 +1,49 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+a {
+  padding: 0 16px;
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  text-align: center;
+  margin: 64px 0;
+}
+
+.big-bg {
+  background-image: url(sakura_fubuki.png);
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.button{
+  border: 1px solid black;
+  padding: 16px 32px;
+  color: white;
+  background-color: skyblue;
+  border-radius: 8px;
+}
+
+.button:hover {
+  color: black;
+  background-color: white;
+}
+
+footer {
+  border-top: 1px solid silver;
+  text-align: center;
+  padding: 64px;
+}
